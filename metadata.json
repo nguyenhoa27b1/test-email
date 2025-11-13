@@ -1,0 +1,5 @@
+{
+  "name": "Team Task Manager",
+  "description": "A web application to manage tasks for teams with users of different roles. Users can create and transfer tasks, while admins can assign, modify, and score tasks. The app includes simulated email reminders for deadlines.",
+  "requestFramePermissions": []
+}
