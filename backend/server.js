@@ -11,7 +11,7 @@ app.use(express.json()); // Middleware to parse JSON bodies
 app.use(cors()); // Middleware to enable CORS for requests from the frontend
 
 // This must be the same Google Client ID used on your frontend.
-const GOOGLE_CLIENT_ID = '616889383289-59ljvqin4boq7p3h04u4mlh3bsf5ol7p.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = '148328673757-i77a42b4dh0qf7dg2cu6lo0kvk4a5h3g.apps.googleusercontent.com';
 
 const client = new OAuth2Client(GOOGLE_CLIENT_ID);
 
